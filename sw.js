@@ -1,6 +1,10 @@
 self.addEventListener('install', function(event) {
     console.log('[Service Worker] Installing Service Worker', event);
+<<<<<<< HEAD
 });
+=======
+};
+>>>>>>> refs/heads/master
 self.addEventListener('activate', function(event) {
     console.log('[Service Worker] Installing Service Worker', event);
     return self.clients.claim();
